@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的 GitHub 主页</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef1f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #6a82fb, #fc5c7d);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3.5em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 25px;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(1.05);
+        }
+        section {
+            margin: 20px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        h2 {
+            border-bottom: 2px solid #6a82fb;
+            padding-bottom: 10px;
+            font-size: 2em;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px 0;
+            background: #6a82fb;
+            color: #fff;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 15px 0;
+        }
+        ul li a {
+            color: #6a82fb;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        ul li a:hover {
+            color: #fc5c7d;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+            nav a {
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的 GitHub 主页</h1>
+        <p>这里是我分享项目和想法的地方。</p>
+        <nav>
+            <a href="#projects">项目</a>
+            <a href="#about">关于我</a>
+            <a href="#contact">联系方式</a>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>项目</h2>
+        <p>这里是我最近的项目：</p>
+        <ul>
+            <li><a href="https://github.com/username/repo1">项目 1</a></li>
+            <li><a href="https://github.com/username/repo2">项目 2</a></li>
+            <li><a href="https://github.com/username/repo3">项目 3</a></li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>关于我</h2>
+        <p>我是一名热爱编程和开源的开发者。</p>
+    </section>
+
+    <section id="contact">
+        <h2>联系方式</h2>
+        <p>你可以通过以下方式与我联系：</p>
+        <p>Email: <a href="mailto:your_email@example.com">your_email@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 我的名字. 版权所有.</p>
+    </footer>
+</body>
+</html>
